@@ -1,7 +1,30 @@
+
+p,h1,h2,h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+label, button{
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+
+#hero-header{
+  
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  color: aliceblue;
+  list-style-type: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
 }
 
 .label {
@@ -16,4 +39,60 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  align-items: center;
+  align-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+body{
+  background-image: url("../images/burger\ back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+
+}
+
+#burger-list{
+  padding: 25px;
+  background-image: url("../images/chalboard.jpg");
+  /* opacity: 90%; */
+  margin: 20px;
+  margin-top: 100px;
+  color: white;
+  
+}
+
+
+/* .input-box{
+  padding: 25px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+} */
+
+#add{
+  text-align: center;
+}
+
+#menu{
+  text-align: center;
+  border-right: 1px dotted whitesmoke;
+}
+
+#devoured{
+  text-align: center;
+  
+}
+
+#input-form{
+  padding: 20px;
+  align-content: center;
+  text-align: left;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+button{
+  background-color:#FEE031;
 }
