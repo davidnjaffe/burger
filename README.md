@@ -2,6 +2,8 @@
 
 ## Description 
 
+![Eat-Da-Burger_Demo](./Assets/06-server-side-apis-homework-demo.png)
+
 Expanding on the use of node express handlebars, this assignment followed the MVC format and file management schema. For the first time I set up a remote server and deployed the database dependent application to Heroku. 
                 
 ![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
